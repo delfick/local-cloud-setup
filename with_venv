@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+from venvstarter import manager
+
+manager("python3").named(".venv").add_pypi_deps("requests").run()
